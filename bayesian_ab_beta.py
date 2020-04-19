@@ -111,7 +111,7 @@ class Bayesian_ab_beta():
 
 
             ax1.set_ylabel('E(Loss)')
-            ax1.plot(np.ones(len(loss))*0.005, color ='red', ls='--', label='Tol =0.005')
+            ax1.plot(np.ones(len(loss))*0.001, color ='red', ls='--', label='Tol =0.001')
             ax1.grid()
             ax1.set_yscale('log')
             ax2.plot(mu_val)
